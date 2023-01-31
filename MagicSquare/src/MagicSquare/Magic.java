@@ -1,6 +1,6 @@
 package MagicSquare;
 
-public class Magic {	//실행
+public class Magic {	//실행 클래스
 	
 	public static void main(String[] args) {	//main
 

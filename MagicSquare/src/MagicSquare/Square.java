@@ -2,7 +2,7 @@ package MagicSquare;
 
 import java.util.Scanner;
 
-public class Square {	//마방진
+public class Square {	//마방진 클래스
 
 	public void Square(){}	//클래스 호출 할 수 있게 생성자만들기
 	
