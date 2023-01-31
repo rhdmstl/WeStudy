@@ -6,17 +6,26 @@ public class Parse {
 	
 	public static void main(String[] args) {
 		
-		//int a = 0;	//종료 조건
-		
+		System.out.println("출력할 숫자를 입력하세요");
+		int a = 0;
 		while(true){
-			System.out.println("출력할 숫자를 입력하세요");
 			
 			Scanner scanner = new Scanner(System.in);
 			
 			String strIn = scanner.next();
 			
-			System.out.print("입력한 숫자"+strIn);
+			try {
+				System.out.println(String.format("입력한 수 : %3s", strIn));
+				a = Integer.parseInt(strIn);	//문자로 받은 값을 숫자로 파싱해주기
+			
+				//break; //사용 시 정수만 입력하면 루프 종료됨
+				
+			} catch (Exception e) {
+				//e.printStackTrace();
+				//throw e;
+			}
 		}
+		//return a;
 		
 	}	//main e
 		
