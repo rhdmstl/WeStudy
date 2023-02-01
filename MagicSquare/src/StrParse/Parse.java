@@ -15,13 +15,12 @@ public class Parse {
 			String strIn = scanner.next();
 			
 			try {
-				System.out.println(String.format("입력한 수 : %3s", strIn));
+				System.out.println("입력한 수 : "+ strIn);
+				
 				a = Integer.parseInt(strIn);	//문자로 받은 값을 숫자로 파싱해주기
-			
-				//break; //사용 시 정수만 입력하면 루프 종료됨
+				break; //0을 누르면 종료
 				
 			} catch (Exception e) {
-				//e.printStackTrace();
 				//throw e;
 			}
 		}
