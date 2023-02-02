@@ -76,7 +76,7 @@ public class Square {	//마방진 클래스
 		print(a, b);	//출력 함수 호출(마방진 모양)
 		
 		return true;	//끝
-	}
+	}	//loop e
 	
 	//출력 메소드 
 	private void print(int a, int[][] b){	
